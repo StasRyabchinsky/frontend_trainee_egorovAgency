@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LEAD Advisors</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("3mQMz6_uGbT9DPH7c");
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="backgroundLine"></div>
+    <img src="./assets/svg/headerVectorLeft.svg" alt="" class="vectorLeft" />
+    <img src="./assets/svg/headerVectorRight.svg" alt="" class="vectorRigth" />
+    <div class="container">
+      <div class="container__main">
+        <div class="header">
+          <div class="header__container">
+            <img src="./assets/svg/icon.svg" alt="icon" class="icon" />
+            <img src="./assets/svg/logo.svg" alt="logo" class="logo" />
+          </div>
+        </div>
+        <div class="main">
+          <div class="title">
+            <h1>Under Construction</h1>
+            <p>We're making lots of improvements and will be back soon</p>
+          </div>
+
+          <div class="timeCount">
+            <div class="timeCount__content">
+              <div class="timeCount__item timeCount__days">
+                <div class="timeCount__val">00</div>
+                <div class="timeCount__textContainer">
+                  <img src="./assets/svg/Vector.svg" alt="" />
+                  <span class="timeCount__text">Days</span>
+                </div>
+              </div>
+              <div class="timeCount__separator">:</div>
+              <div class="timeCount__item timeCount__hours">
+                <div class="timeCount__val">00</div>
+                <div class="timeCount__textContainer">
+                  <img src="./assets/svg/Vector.svg" alt="" />
+                  <span class="timeCount__text">Hours</span>
+                </div>
+              </div>
+              <div class="timeCount__separator">:</div>
+              <div class="timeCount__item timeCount__minutes">
+                <div class="timeCount__val">00</div>
+                <div class="timeCount__textContainer">
+                  <img src="./assets/svg/Vector.svg" alt="" />
+                  <span class="timeCount__text">Minutes</span>
+                </div>
+              </div>
+              <div class="timeCount__separator">:</div>
+              <div class="timeCount__item timeCount__seconds">
+                <div class="timeCount__val">00</div>
+                <div class="timeCount__textContainer">
+                  <img src="./assets/svg/Vector.svg" alt="" />
+                  <span class="timeCount__text">Seconds</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="checkEvent">
+            <p>Check our event page when you wait:</p>
+            <a href="#" class="checkEvent__button"
+              ><div>Go to the event</div>
+              <img
+                src="./assets/svg/arrowEvent.svg"
+                alt=""
+                class="checkEvent__vector"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer__container">
+          <form action="#" method="get" id="form">
+            <div class="form__notify">
+              <input
+                id="email"
+                type="email"
+                name="userEmail"
+                value=""
+                placeholder="Enter your Email and get notified"
+              />
+              <button type="submit" title="submit">
+                <img src="./assets/svg/arrow-right.svg" alt="" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div id="popupTitle" class="popup__title">SUCCESS</div>
+          <div id="popapText" class="popup__text">
+            You have successfully subscribed to the email newsletter
+          </div>
+          <a href="#" class="popup__close popup__close__text">Close</a>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
